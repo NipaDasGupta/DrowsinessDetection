@@ -1,5 +1,4 @@
-# Drowsiness Detection 
-
+# Drowsiness Detection 😴
 
 ### 1. Set up and get data 
 ### 2. Use Augmentor library to augment images in vertically, horizontally, etc. 
