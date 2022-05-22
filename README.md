@@ -1,11 +1,11 @@
 # Drowsiness Detection 😴
 
-### 1. Set up and get data 
-### 2. Use Augmentor library to augment images in vertically, horizontally, etc. 
-### 3. Annotate images using labelImg package
-### 4. Partition augmented data (images + label files) in train and test folder 
-### 5. Transfer learning using SSD MobileNet V2 
-### 6. Train and evaluate the model
-### 7. Use tensorboard to analyse the train and evaluate result 
-### 8. Detect drowsiness using an image 
-### 9. Real time drowsiness detection using a webcam with OpenCV 
+### <b>1.</b> Set up and get data 
+### <b>2.</b> Use Augmentor library to augment images in vertically, horizontally, etc. 
+### <b>3.</b> Annotate images using labelImg package
+### <b>4.</b> Partition augmented data (images + label files) in train and test folder 
+### <b>5.</b> Transfer learning using SSD MobileNet V2 
+### <b>6.</b> Train and evaluate the model
+### <b>7.</b> Use tensorboard to analyse the train and evaluate result 
+### <b>8.</b> Detect drowsiness using an image 
+### <b>9.</b> Real time drowsiness detection using a webcam with OpenCV 
