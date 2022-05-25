@@ -45,7 +45,7 @@ p.random_contrast(probability=0.2, min_factor=0, max_factor=255)
 p.skew_left_right(probability=0.5)
 p.resize(probability=1.0, width=320, height=320)
 ```
-4.4 Executing a pipeline
+3.5 Executing a pipeline
 ```
 num_of_samples = int(6000)
 # Now we can sample from the pipeline:
