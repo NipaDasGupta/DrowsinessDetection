@@ -18,21 +18,20 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
 !cd Tensorflow/labelImg && python labelImg.py
 ```
-### 3. Partition augmented data (images + label files) manually in train and test folder (the ratio is 9:1) 
-### 4. Use Augmentor library to augment images in vertically, horizontally, etc.
-4.1 Install Augmentor using pip
+### 3. Use Augmentor library to augment images in vertically, horizontally, etc.
+3.1 Install Augmentor using pip
 ```
 pip install Augmentor
 ```
-4.2 Import Augmentor
+3.2 Import Augmentor
 ```
 import Augmentor as A
 ```
-4.3 Adding operations to a pipeline
+3.3 Adding operations to a pipeline
 ```
 p = A.Pipeline("Tensorflow/workspace/images/train") or p = A.Pipeline("Tensorflow/workspace/images/test")
 ```
-4.4 Then add operations to the Pipeline object p as follows:
+3.4 Then add operations to the Pipeline object p as follows:
 ```
 p.flip_left_right(probability=0.5)
 p.greyscale(probability=0.2)
@@ -46,8 +45,15 @@ num_of_samples = int(6000)
 # Now we can sample from the pipeline:
 p.sample(num_of_samples)
 ```
+### 4. Partition augmented data (images + label files) manually in train and test folder (the ratio is 9:1) 
 ### 5. Transfer learning using SSD MobileNet V2 
 ### 6. Train and evaluate the model
-### 7. Use tensorboard to analyse the train and evaluate result 
+Once you use the train command in the Windows OS terminal, you will start to get the loss metrics (classification, localization, regression, total loss) like below:
+![WhatsApp Image 2022-01-03 at 8 19 34 AM](https://user-images.githubusercontent.com/89456649/170283125-80223108-7f64-436c-8cf0-5f552551f98b.jpeg)
+
+Next, run the evaluation command to analyse the train data inside the Windows terminal, you will start to see eval metrics like below:
+![WhatsApp Image 2022-01-17 at 10 50 48 PM (1)](https://user-images.githubusercontent.com/89456649/170283473-7b86fdf2-d929-4654-8b96-e6b19ab196d5.jpeg)
+### 7. Use tensorboard to analyse the train and evaluate result
+
 ### 8. Detect drowsiness using an image 
 ### 9. Real time drowsiness detection using a webcam with OpenCV 
