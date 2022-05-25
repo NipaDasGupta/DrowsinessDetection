@@ -3,10 +3,15 @@
 ### 1. Set up and get data
 1.1 Follow this guide: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html <br />
 or, watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
-1.2 Clone this repo: https://github.com/nicknochnack/RealTimeObjectDetection <br />
+1.2 Clone this repo using this command:
+```
+https://github.com/nicknochnack/RealTimeObjectDetection
+```
 ### 2. Annotate images using labelImg package
-2.1 Clone this repo inside "Drowsiness/Tensorflow": https://github.com/tzutalin/labelImg 
-<br />
+2.1 Clone this repo inside "Drowsiness/Tensorflow" using this command: 
+```
+git clone https://github.com/tzutalin/labelImg 
+```
 2.2 Setup labelImg for Windows:
 ```
 conda install pyqt=5
