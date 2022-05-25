@@ -2,7 +2,7 @@
 
 ### 1. Set up and get data
 1.1 Follow this guide: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html <br />
-or watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
+or, watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
 1.2 Clone this repo: https://github.com/nicknochnack/RealTimeObjectDetection <br />
 ### 2. Annotate images using labelImg package
 2.1 Clone this repo inside "Drowsiness/Tensorflow": https://github.com/tzutalin/labelImg <br />
@@ -54,6 +54,19 @@ Once you use the train command in the Windows OS terminal, you will start to get
 Next, run the evaluation command to analyse the train data inside the Windows terminal, you will start to see eval metrics like below:
 ![WhatsApp Image 2022-01-17 at 10 50 48 PM (1)](https://user-images.githubusercontent.com/89456649/170283473-7b86fdf2-d929-4654-8b96-e6b19ab196d5.jpeg)
 ### 7. Use tensorboard to analyse the train and evaluate result
+7.1 Navigate to the train folder for your trained model e.g.
+```
+cd Drowsiness/Tensorlfow/workspace/models/my_ssd_mobnet/train
+```
+7.2 Then, open Tensorboard with the following command
+```
+tensorboard --logdir=.
+```
+7.3 Navigate to the evaluation folder for your trained model e.g.
+```
+cd Drowsiness/Tensorlfow/workspace/models/my_ssd_mobnet/eval
+```
+7.4 Similarly, open the tensorboard to eval the data
+### 8. Detect drowsiness using an image
 
-### 8. Detect drowsiness using an image 
 ### 9. Real time drowsiness detection using a webcam with OpenCV 
