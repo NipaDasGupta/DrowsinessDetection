@@ -19,7 +19,7 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
 !cd Tensorflow/labelImg && python labelImg.py
 ```
-### 3. Use Augmentor library to augment images in vertically, horizontally, etc.
+### 3. Use Augmentor library to augment images vertically, horizontally, etc.
 3.1 Install Augmentor using pip
 ```
 pip install Augmentor
@@ -49,12 +49,12 @@ p.sample(num_of_samples)
 ### 4. Partition augmented data (images + label files) manually in train and test folder (the ratio is 9:1) 
 ### 5. Transfer learning using SSD MobileNet V2 
 ### 6. Train and evaluate the model
-Once you use the train command in the Windows OS terminal, you will start to get the loss metrics (classification, localization, regression, total loss) like below:
+Once you use the training command in the Windows OS terminal, you will start to get the loss metrics (classification, localization, regression, total loss) like below:
 ![WhatsApp Image 2022-01-03 at 8 19 34 AM](https://user-images.githubusercontent.com/89456649/170283125-80223108-7f64-436c-8cf0-5f552551f98b.jpeg)
 
-Next, run the evaluation command to analyse the train data inside the Windows terminal, you will start to see eval metrics like below:
+Next, run the evaluation command to analyze the train data inside the Windows terminal, you will start to see eval metrics like the below:
 ![WhatsApp Image 2022-01-17 at 10 50 48 PM (1)](https://user-images.githubusercontent.com/89456649/170283473-7b86fdf2-d929-4654-8b96-e6b19ab196d5.jpeg)
-### 7. Use tensorboard to analyse the train and evaluate result
+### 7. Use tensorboard to analyze the train and evaluate the result
 7.1 Navigate to the train folder for your trained model e.g.
 ```
 cd Drowsiness/Tensorlfow/workspace/models/my_ssd_mobnet/train
