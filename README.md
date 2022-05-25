@@ -8,7 +8,7 @@ or, watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br />
 git clone https://github.com/nicknochnack/RealTimeObjectDetection
 ```
 ### 2. Annotate images using labelImg package
-2.1 Clone this repo inside "Drowsiness/Tensorflow" using this command: 
+2.1 Clone this repo inside e.g. "Drowsiness/Tensorflow" using this command: 
 ```
 git clone https://github.com/tzutalin/labelImg 
 ```
