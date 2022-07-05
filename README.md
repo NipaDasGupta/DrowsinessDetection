@@ -1,7 +1,7 @@
 # Drowsiness Detection 😴
 
 ### 1. Set up and get data
-[![Youtube](https://img.shields.io/website?label=1&up_message=guide&url=https%3A%2F%2Ftensorflow-object-detection-api-tutorial.readthedocs.io%2Fen%2Flatest%2Finstall.html)][youtube]
+[![Tutorial](https://img.shields.io/website?label=1&up_message=tensorflow%20object%20detection%20api%20tutorial%20docs&url=https%3A%2F%2Ftensorflow-object-detection-api-tutorial.readthedocs.io%2Fen%2Flatest%2Finstall.html)][tutorial]
  watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
 1.2 Clone this repo using this command:
 ```
@@ -78,4 +78,4 @@ cd Drowsiness/Tensorlfow/workspace/models/my_ssd_mobnet/eval
 ### 9. Real time drowsiness detection using a webcam with OpenCV
 https://user-images.githubusercontent.com/89456649/177331318-f2e6d4da-e2fb-4013-a73a-dafc73dcb6ac.mp4
 
-[youtube]: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+[tutorial]: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
