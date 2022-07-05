@@ -1,8 +1,8 @@
 # Drowsiness Detection 😴
 
 ### 1. Set up and get data
-1.1 Follow this guide: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html <br />
-/ watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
+https://img.shields.io/website?label=1&style=plastic&up_message=guide&url=https%3A%2F%2Ftensorflow-object-detection-api-tutorial.readthedocs.io%2Fen%2Flatest%2Finstall.html
+ watch this video: https://www.youtube.com/watch?v=dZh_ps8gKgs&t=1441s <br /> <br />
 1.2 Clone this repo using this command:
 ```
 git clone https://github.com/nicknochnack/RealTimeObjectDetection
