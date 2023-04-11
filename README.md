@@ -2,7 +2,6 @@
 
 ### 1. Set up and get data
 [![Tutorial](https://img.shields.io/website?label=1&up_message=tensorflow%20object%20detection%20api%20tutorial%20docs&url=https%3A%2F%2Ftensorflow-object-detection-api-tutorial.readthedocs.io%2Fen%2Flatest%2Finstall.html)][tutorial]
-[![Youtube](https://img.shields.io/website?color=blue&label=2&up_message=video%20guideline&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdZh_ps8gKgs%26t%3D1441s)][youtube]
 [![Paper](https://img.shields.io/website?color=pink&label=3&up_message=paper&url=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F15KRiEycAkr54TyqSnjlaZolSi4RkoDMs%2Fview)][paper] <br /> <br />
 1.1 Clone this repo using this command:
 ```
